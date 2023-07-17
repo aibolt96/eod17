@@ -1,0 +1,101 @@
+-- create table person (
+2
+--  person_id serial primary key,
+3
+--      person_name varchar (30) not null,
+4
+--      age integer,
+5
+--      height integer,
+6
+--      city varchar (30),
+7
+--      favorite_color varchar (30)
+8
+-- )
+9
+  
+10
+  -- create table orders (
+11
+  --    order_id serial primary key,
+12
+  --   person_id integer,
+13
+  --   product_name varchar (20),
+14
+  --   product_price integer,
+15
+  --   quantity integer
+16
+  -- )
+17
+  
+18
+--   CREATE TABLE artist (
+19
+--   artist_id SERIAL PRIMARY KEY,
+20
+--   name VARCHAR(120)
+21
+-- );
+22
+​
+23
+-- CREATE TABLE employee (
+24
+--   employee_id SERIAL PRIMARY KEY,
+25
+--   last_name VARCHAR(20),
+26
+--   first_name VARCHAR(20),
+27
+--   title VARCHAR(30),
+28
+--   reports_to INTEGER REFERENCES employee(employee_id),
+29
+--   birth_date TIMESTAMP,
+30
+--   hire_date TIMESTAMP,
+31
+--   address VARCHAR(70),
+32
+--   city VARCHAR(40),
+33
+--   state VARCHAR(40),
+34
+--   country VARCHAR(40),
+35
+--   postal_code VARCHAR(10),
+36
+--   phone VARCHAR(24),
+37
+--   fax VARCHAR(24),
+38
+--   email VARCHAR(60)
+39
+-- );
+40
+​
+41
+-- CREATE TABLE invoice (
+42
+--   invoice_id SERIAL PRIMARY KEY,
+43
+--   customer_id INTEGER,
+44
+--   invoice_date TIMESTAMP,
+45
+--   billing_address VARCHAR(70),
+46
+--   billing_city VARCHAR(40),
+47
+--   billing_state VARCHAR(40),
+48
+--   billing_country VARCHAR(40),
+49
+--   billing_postal_code VARCHAR(10),
+50
+--   total DECIMAL(2)
+51
+-- );
